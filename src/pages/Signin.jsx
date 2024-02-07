@@ -39,12 +39,13 @@ export function Signin(){
                                 password
                             })
                             console.log(response)
-                            localStorage.setItem("username",response.data.username)
                             localStorage.setItem("token",response.data.token)
+                            localStorage.setItem("username",response.data.username)
                             localStorage.setItem("firstName",response.data.firstName)
                             navigate("/dashboard")
                         }catch(err){
-                            navigate("/dashboard")
+                            alert("Please check username and password")
+                            navigate("/signin")
                         }
                     }}
                     text = "Sign In"/>
