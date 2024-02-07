@@ -16,7 +16,7 @@ export function Topbar({username}){
                 {
                     
                     location.pathname === '/dashboard' ? (
-                        <button onClick={logoutFromApplication} className="bg-blue-600 p-4 rounded-lg text-white font-bold text-lg">Logout</button>
+                        <button onClick={logoutFromApplication} className="bg-blue-600 p-2 rounded-lg text-white font-bold text-sm md:text-md md:p-3 lg:text-lg lg:pd-4">Logout</button>
                       ) : null
                       
                 }
