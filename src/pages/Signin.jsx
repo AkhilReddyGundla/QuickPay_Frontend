@@ -48,7 +48,7 @@ export function Signin(){
                         }
                     }}
                     text = "Sign In"/>
-                    <Bottomtext text = "Don't have an account yet?" underlineText = "Sign Up" to = "/Signup"/>
+                    <Bottomtext text = "Don't have an account yet?" underlineText = "Sign Up" to = "/"/>
                 </div>
             </div>
         </div>
